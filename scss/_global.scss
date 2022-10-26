@@ -1,0 +1,47 @@
+html{
+    box-sizing: border-box;
+}
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+a{
+    text-decoration: none;
+    color:inherit;
+}
+ul,li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin: 0;
+    font-size: inherit;
+}
+body{
+    min-width: 320px;
+    overflow-x: hidden;
+    position: relative;
+    color: #fff;
+}
+.menu{
+    background-color: aqua;
+}
+.page__section{
+    min-height: 100vh;
+    background-image: url(../images/bg_all.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    position: relative;
+}
+.title{
+
+}
+.scroll__btn{
+
+}
